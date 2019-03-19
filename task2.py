@@ -1,5 +1,5 @@
 # task 2 - result display the least number of requests and hour of day
-# log_data.txt
+# file name: log_data.txt
 file_open = input('Enter the file name: ')
 try:
     file_read = open(file_open, 'r', encoding='utf-8')
