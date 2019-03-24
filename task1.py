@@ -1,12 +1,7 @@
 from datetime import datetime
 
 # log_data.txt
-open_book = input('Enter the file name: ')
-try:
-    book = open(open_book)
-except FileNotFoundError:
-    print('File cannot be opened:', open_book)
-# book = open('log_data.txt')
+book = open('log_data.txt')
 
 # fulfill the first array with data from the file
 # cast date strings to real dates
